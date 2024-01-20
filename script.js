@@ -10,7 +10,7 @@ window.onload = function() {
 
 // Fetch data from API and update the DOM
 async function getDates() {
-  const response = await fetch("https://api.inhabil.no");
+  const response = await fetch("https://api.plagiert.no");
   const dates = await response.json();
   document.getElementById('days-count').textContent = dates.latest;
   const olderDiv = document.getElementById("older");
