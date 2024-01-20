@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+
+#content {
+  text-align: center;
+}
+
+#days-count {
+  font-size: 2em;
+  color: #333;
+}
+
+#older {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#older span:not(:first-child)  {
+  margin-left: 0.4em;
+}
+
+#api {
+  margin-top: 2em;
+  font-size: small;
+}
